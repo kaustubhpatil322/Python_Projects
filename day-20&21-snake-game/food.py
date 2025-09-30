@@ -1,0 +1,36 @@
+from turtle import Turtle
+import random
+
+class Food(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.shape("circle")
+        self.penup()
+        self.shapesize(stretch_len = 0.5 , stretch_wid = 0.5)
+        self.color("turquoise")
+        random_x = random.randint(-280 , 280)
+        random_y = random.randint( -280 , 280)
+        self.goto(random_x , random_y)
+
+    def eat(self):
+        self.hideturtle()
+        return True
+
+    def refresh(self): # Food goes to the New Random Location
+        random_x = random.randint(-280 , 280)
+        random_y = random.randint(-280 , 280)
+        super().__init__()
+        self.shape("circle")
+        self.penup()
+        self.shapesize(stretch_len=0.5, stretch_wid=0.5)
+        self.color("turquoise")
+        self.hideturtle()
+        self.goto(random_x , random_y)
+        self.showturtle()
+
+
+
+
+
+

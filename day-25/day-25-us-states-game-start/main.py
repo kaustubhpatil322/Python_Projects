@@ -26,6 +26,9 @@ while correct != 50:
     answer = screen.textinput(title=f"{correct}/50 Guess the State" , prompt="Can you find the another state")
     guess = answer.title()
     if guess == "Exit":
+        missing_state = [ state for state in state_list if state not in guessed_correct]
+        df = pandas.DataFrame(missing_state)
+        df.to_csv("states_to_learn.csv")
         break
     if guess in state_list:
         correct+=1

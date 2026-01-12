@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e042229-2811-4793-a8de-2341b260d6cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/day-26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-26/nato_phonetic_alphabet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-27/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-27/widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19-start/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-25/day-25-us-states-game-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-25/day-25-us-states-game-start/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kaustubhpatil322"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kaustubhpatil322&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kaustubhpatil322/Python_Projects",
-    "accountId": "10960834-7a80-45cf-81f9-055cbf606f58"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kaustubhpatil322/Python_Projects&quot;,
+    &quot;accountId&quot;: &quot;10960834-7a80-45cf-81f9-055cbf606f58&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>

@@ -10,7 +10,7 @@ except FileNotFoundError:
     original_data = pandas.read_csv("data/french_words.csv")
     to_learn = original_data.to_dict(orient="records")
 else:
-    to_learn = data.to_dict(orient="records")  # to tranform a normal csv's orientation into dict as per the Columns(as key)
+    to_learn = data.to_dict(orient="records")  # to transform a normal csv's orientation into dict as per the Columns(as key)
 
 
 #to_learn =to_dict(data) convert into dict
@@ -35,8 +35,8 @@ def flip_card():
 
 def is_known():
     to_learn.remove(current_card)
-    data = pandas.DataFrame(to_learn)
-    data.to_csv("data/words_to_learn.csv" , index = False)
+    learn_data = pandas.DataFrame(to_learn)
+    learn_data.to_csv("data/words_to_learn.csv" , index = False)
     next_card()
 #----------------------------------------------------UI Setup------------------------------------------------------
 window = Tk()

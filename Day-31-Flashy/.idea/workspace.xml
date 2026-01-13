@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb84dd44-2342-4ec3-9bb0-03b4db9e60b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Day-31-Flash-Card_Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day-31-Flash-Card_Project/.idea/Day-31-Flash-Card-Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day-31-Flash-Card_Project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NATO-alphabet-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NATO-alphabet-start/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-19/.idea/day-19-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/day-26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-26/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-27/.idea/day-27.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-27/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-27/widget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/password-manager-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../password-manager-start/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonProject1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19-start/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-25/day-25-us-states-game-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-25/day-25-us-states-game-start/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day-31-Flash-Card_Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day-31-Flash-Card_Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,6 +69,27 @@
       <option name="presentableId" value="Default" />
       <updated>1768155889606</updated>
     </task>
+    <task id="LOCAL-00001" summary="Flash Card Game">
+      <option name="closed" value="true" />
+      <created>1768196317090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768196317090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Flash Card Game">
+      <option name="closed" value="true" />
+      <created>1768196322552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768196322552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flash Card Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flash Card Game" />
   </component>
 </project>

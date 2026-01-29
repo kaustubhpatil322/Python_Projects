@@ -2,6 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 from twilio.rest import Client
+import time
 
 
 STOCK = "TSLA"
@@ -64,7 +65,7 @@ print(f"{price_diff_percent}")
 
 news_api_key = os.getenv("NEWS_API_KEY")
 
-if price_diff_percent>0.5:
+if  not price_diff_percent>0.5:
     parameters = {
         "apiKey":news_api_key,
         "q":STOCK
@@ -72,34 +73,37 @@ if price_diff_percent>0.5:
     news_data = requests.get(url=NEWS_ENDPOINT , params=parameters)
     news_data.raise_for_status()
     news_response = news_data.json()
-    news_articles = news_response["articles"][:2]
+    news_articles = news_response["articles"][:3]
     news_content = [
         {
-            "Description": entry["description"]
+            "Title": entry["title"],
+            "Description": entry["description"],
+            "link":entry["url"],
         }
         for entry in news_articles
     ]
 
     print(news_articles)
     print(news_content)
-    msg="STOCK MOVEMEMENT NOTICED!!!\n"
+
+    auth_token = os.getenv("AUTH_TOKEN")
+    client = Client(ACCOUNT_SID, auth_token)
 
     for i in range(len(news_content)):
-        msg+= f"News{i+1}:{news_content[i]["Description"]}\n"
-        # msg+=f"Description:{news_content[i]["Description"]}\n"
-    print(len(msg))
-    print(msg)
-    auth_token = os.getenv("AUTH_TOKEN")
-    client=Client(ACCOUNT_SID , auth_token)
-    message = client.messages.create(
-        # messaging_service_sid='MGc9224e5c049cfaedb8b6e55bdb1c138c',
-        body=msg,
-        from_="+17152009645",
-        to="+917887979181"
-    )
-    print(message.sid)
-
-
+        time.sleep(1)
+        msg = "STOCK MOVEMEMENT NOTICED!!!\n"
+        msg+= f"News Title:{news_content[i]["Title"]}\n"
+        msg+=f"Description:{news_content[i]["Description"]}\n"
+        msg+= f"Link:{news_content[i]["link"]}"
+        print(len(msg))
+        print(msg)
+        message = client.messages.create(
+            # messaging_service_sid='MGc9224e5c049cfaedb8b6e55bdb1c138c',
+            body=msg,
+            from_="+17152009645",
+            to="+917887979181"
+        )
+        print(message.sid)
 
 
 ## STEP 3: Use twilio.com/docs/sms/quickstart/python
